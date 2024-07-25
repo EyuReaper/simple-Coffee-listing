@@ -34,11 +34,11 @@ body {
   text-align: center;
   background-color: #1b1d1f;
   color: #fef7ee;
-  border: radius 40%;;
 }
 
 /* Label */
 .product-card h3 {
+  align-items: left;
   font-family: "DM Sans", sans-serif;
   font-size: 0.875rem; /* 14px */
   font-weight: 500;
@@ -60,7 +60,7 @@ body {
 /* App.css */
 .main-bg {
   top: 0;
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 2em;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,7 +77,6 @@ body {
   background-color: #1b1d1f;
   max-width: 950px;
   margin: 0 auto;
-  border-radius: 50px;
 }
 
 header {
@@ -93,10 +92,12 @@ header {
   max-height: 350px;
   min-width: 300px;
   margin-bottom: 50px;
+  border: 2px solid #1b1d1f;
+  border-radius: 15px;
 }
 h3 .price {
-  display: block;
 }
+
 .logo {
   background-color: #1b1d1f;
   font-size: 32px;
@@ -152,8 +153,16 @@ nav {
 }
 .product-card .fav {
   position: absolute;
-  top: 570px;
-  left: 190px;
+  top: 680px;
+  left: 400px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #f6c768;
+}
+.product-card .fav2 {
+  position:absolute;
+  top: 680px;
+  left: 660px;
   padding: 5px;
   border-radius: 15px;
   background-color: #f6c768;
@@ -167,6 +176,7 @@ nav {
 }
 
 .product-card h3 {
+  position: relative;
   justify-content: center;
   color: #fef7ee;
   margin-top: 0;
@@ -174,23 +184,34 @@ nav {
 }
 
 .product-card .price {
-  justify-content: center;
-  position:absolute;
-  align-content: right;
-  padding: 5px;
-  border-radius: 5px;
+  position:inherit;
+  padding: 1px;
+    border-radius: 5px;
   background-color: #bee3cc;
   color: #1b1d1f;
   font-size: 18px;
   font-weight: bold;
   margin-top: 0px; 
+  text-align: center;
 }
 
 .product-card .rating {
+  position:inherit;
+  align-items: right;
+  display: inline;
   font-size: 14px;
   color: #fef7ee;
   margin-top: 5px;
   background-color: #1b1d1f;
 }
 
+.product-card .star-icon{
+  display: inline;
+  position: relative;
+  width: 20px;
+}
+
+.reviews{
+  color: #6F757C;
+}
 /* Add more responsive styles here */
