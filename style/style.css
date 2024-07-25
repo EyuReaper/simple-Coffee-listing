@@ -11,14 +11,14 @@ h2 {
   background-color: #1b1d1f;
   text-align: center;
   margin-top: 10px;
-  margin-left: 150px;
+  margin-left: 90px;
 }
 p {
   color: #6f757c;
   font: 16px;
   background-color: #1b1d1f;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 50px;
   align-items: center;
 }
 /* Body */
@@ -29,7 +29,7 @@ body {
   background-color: #111315;
 }
 .heading {
-  margin-top: 90px;
+  margin-top: 80px;
   align-content: center;
   text-align: center;
   background-color: #1b1d1f;
@@ -116,13 +116,14 @@ header nav a {
   align-content: center;
 }
 nav {
+  margin-left: 10px;
   display: inline-flex;
   background-color: #1b1d1f;
   justify-content: center;
   text-align: center;
 }
 .active {
-  padding: 15px;
+  padding: px;
   border: #6f757c;
   border-radius: 5px;
   background-color: #6f757c;
@@ -140,15 +141,15 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   background-color: #1b1d1f;
-  border-radius: 15px;
+  border-radius: 10px;
   margin: 0 100 100 100;
   padding-bottom: 40px;
 }
 
 .product-card {
   background-color: #1b1d1f;
-  padding: 1px;
-  border-radius: 4px;
+  border-radius: 15px;
+  justify-content: space-between;
   text-align: left;
 }
 .product-card .fav {
@@ -183,10 +184,9 @@ nav {
   background-color: #1b1d1f;
 }
 
-.product-card .price {
-  position:inherit;
+.product-card .price {  
   padding: 1px;
-    border-radius: 5px;
+  border-radius: 5px;
   background-color: #bee3cc;
   color: #1b1d1f;
   font-size: 18px;
@@ -196,12 +196,12 @@ nav {
 }
 
 .product-card .rating {
-  position:inherit;
-  align-items: right;
-  display: inline;
+  position:initial;
+  align-items: left;
+  display:contents;
   font-size: 14px;
   color: #fef7ee;
-  margin-top: 5px;
+  margin-top: 0px;
   background-color: #1b1d1f;
 }
 
