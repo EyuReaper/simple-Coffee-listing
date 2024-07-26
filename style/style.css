@@ -130,6 +130,7 @@ nav {
   color: #fef7ee;
 }
 .products h2 {
+  display: block;
   margin-top: 0;
   padding: 20px;
   border-radius: 5px;
@@ -211,6 +212,39 @@ nav {
   width: 20px;
 }
 
+.h3-price{
+display: flex;
+flex-direction: row;
+align-content: center;
+justify-content: space-between;
+}
+.vote{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: left;
+  gap: 7px;
+
+}
+.soldout{
+  color: red;
+  margin-left: 15%;
+}
+.mainbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 3;
+}
+.allproduct{
+
+}
+
+button{
+  border: none;
+}
 .reviews{
   color: #6F757C;
 }
